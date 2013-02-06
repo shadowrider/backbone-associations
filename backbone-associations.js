@@ -21,7 +21,7 @@
     var _, Backbone, BackboneModel, BackboneCollection, ModelProto,
         defaultEvents, AssociatedModel, pathChecker;
 
-    if (typeof require !== 'undefined') {
+    if (typeof module !== 'undefined' && module.exports) {
         _ = require('underscore');
         Backbone = require('backbone');
         exports = module.exports = Backbone;
